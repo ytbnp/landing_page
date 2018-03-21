@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+/*Bootstrap Overrides*/
+html {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font: 100 15px;
+  color: #58595b;
+}
+html,
+body {
+  height: 100%;
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+a:hover,
+a:focus {
+  color: #eb3812;
+  text-decoration: none;
+}
+body {
+  font: inherit;
+  color: inherit;
+}
+h1 {
+  font-size: 2.66rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h3,
+h4,
+h5 {
+  font-weight: 400;
+  font-size: .93rem;
+}
+h4 {
+  color: #808080;
+}
+h4 span {
+  font-weight: 100;
+}
+.btn-danger {
+  font: 400 1.06rem 'Open Sans', sans-serif;
+  background-color: #d13239;
+}
+/*END Bootstrap Overrides*/
+/*Map Element*/
+#mapid {
+  /*width: 450px;*/
+  max-width: 100%;
+  padding-top: 100%;
+  /*min-width: 100%;*/
+  /*display: block;*/
+}
+/*END Map Element*/
+/*Autocomplete Styling*/
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #FFF;
+  overflow: auto;
+}
+.autocomplete-suggestion {
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.autocomplete-selected {
+  background: #F0F0F0;
+}
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #3399FF;
+}
+.autocomplete-group {
+  padding: 2px 5px;
+}
+.autocomplete-group strong {
+  display: block;
+  border-bottom: 1px solid #000;
+}
+#address-input-field {
+  position: relative;
+}
+/*END Autocomplete Stylings*/
+#submit-payment {
+  position: relative /*allows positioning of spinner element inside button*/;
+}
