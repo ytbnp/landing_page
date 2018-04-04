@@ -25,6 +25,9 @@ a {
   transition: all 0.35s;
   color: #F05F40;
 }
+.footer a {
+  color: #FFF
+}
 a:hover,
 a:focus {
   color: #eb3812;
