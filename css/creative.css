@@ -67,6 +67,11 @@ section {
 aside {
   padding: 50px 0;
 }
+map {
+  display: block;
+  border: 3px;
+  color: red;
+}
 
 .poweredby {
 	text-transform: lowercase;;
